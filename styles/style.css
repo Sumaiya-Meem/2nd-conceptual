@@ -59,4 +59,47 @@ nav .logo h1{color:#fff;}
     color:#fff;
     font-weight: 700;
     font-size: 18px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+/* services style */
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../images/bg2.avif"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.9));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+.btn-service{
+    margin-bottom: 10px;
+    background-color: #fff;
+    color:rgb(133, 115, 115);
+}
+.service-title{margin-bottom: 10px;}
+
+.two-box{display: flex;
+    gap:10px;}
+.box{
+    width: 240px;
+    height: 220px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.icon{
+    width:70px;
+    height: 60px;
+    margin: 20px 0px;
+}
+.box-title{
+    margin-top: 20px;
+    font-size: 18px;
 }
